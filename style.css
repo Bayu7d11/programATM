@@ -1,0 +1,40 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px #c3a689;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#tarikTunaiMessage {
+    display: none;
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+button {
+    border-color: rgb(255, 166, 0);
+    background-color: rgb(255, 166, 0);
+}
+.logout-button {
+    background-color: red;
+    color: white;
+    border-color: red;
+    margin-top: 20px;
+}
